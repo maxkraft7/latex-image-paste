@@ -1,5 +1,7 @@
 # LaTeX Image Helper
 
+`This fork changed the floating behaviour of the images`
+
 An Atom plugin for LaTeX grammar. Create image file relative to the markdown file and insert a relative url to that file.
 
 Inspired by [markdown-image-helper](https://github.com/bigyuki/markdown-image-helper).

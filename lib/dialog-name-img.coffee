@@ -53,4 +53,4 @@ class MoveDialog extends Dialog
     if selection.length > 0
       editor.insertText(filename)
     else
-      editor.insertText("\\begin{figure}[!htb]\n\t\\centering\n\t\\includegraphics[width=0.95\\textwidth]{"+relPath+"}\n\t\\caption{}\n\t\\label{}\n\\end{figure}")
+      editor.insertText("\\begin{figure}[H]\n\t\\centering\n\t\\includegraphics[width=0.95\\textwidth]{"+relPath+"}\n\t\\caption{}\n\t\\label{}\n\\end{figure}")
